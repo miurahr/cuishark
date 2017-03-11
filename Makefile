@@ -10,7 +10,7 @@ SRC = main.cc
 OBJ = $(SRC:.cc=.c)
 TARGET = cuishark
 
-CXXFLAGS +=  -std=c++11 -Wno-format-security -g -O0
+CXXFLAGS +=  -std=c++11 -Wno-format-security -g -O0 -I./libslankdev/include
 LDFLAGS  = -lncurses -lpcap
 
 
